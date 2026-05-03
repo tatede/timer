@@ -6,7 +6,7 @@ export default function TimerPage() {
   const [done, setDone] = useState(false);
 
   useEffect(() => {
-    const target = new Date("2026-05-02T22:00:00-05:00").getTime();
+    const target = new Date("2026-05-02T22:00:00-04:00").getTime();
 
     function update() {
       const now = Date.now();
